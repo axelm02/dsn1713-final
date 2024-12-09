@@ -1,0 +1,40 @@
+
+:root {
+    --bs-primary: #0845a8;
+    --bs-light: #ffffff;
+
+  }
+
+  
+
+h1, h2 {
+    color: #0f4176; 
+  }
+  
+  
+  nav {
+    background-color: var(--bs-primary);
+    
+  }
+  
+  .btn {
+    background-color: var(--bs-primary);
+    color: var(--bs-light);
+    animation: pulse 3s infinite;
+  }
+  
+  .navbar-brand {
+    color: var(--bs-light);
+  }
+  
+
+.gallery-image {
+    width: 100%; 
+    max-width: 400px; 
+    max-height: 300px; 
+    object-fit: cover; 
+    display: block; 
+    margin: auto; 
+  }
+  
+  
